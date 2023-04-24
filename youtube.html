@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        
+        <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+ 
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-count">3</div>
+        </div>
+
+          <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/Byxl3sVRWlc"><img class="thumbnail" src="thumbnails/thumbnail-1.webp"></a>
+          <div class="video-time">7:11</div>
+        </div>
+  
+        <div class="video-info-grid">
+          <div class="tooltip">
+          <div class="channel-redirect">
+             <a href="https://www.youtube.com/@Goal_90"><img class="profile-picture" src="channel-pictures/channel-1.jpeg"></a>
+            </div>
+            <div class="tooltiptext">
+            <img class="icon-preview" src="channel-pictures/channel-1.jpeg">
+            <div class="first-line"><b>Goal 90</b><br></div>
+            <div class="second-line"><b>279K subscribers</b></div>
+            </div>
+          </div>
+
+          <div class="video-info">
+            <p class="video-title"><a href="https://youtu.be/Byxl3sVRWlc">How Did Napoli Become So Good?</a></p>
+            <p class="video-author"><a href="https://www.youtube.com/@Goal_90">Goal 90</a></p>
+            <p class="video-stats">198K views · 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+  
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/8dWL3wF_OMw"><img class="thumbnail" src="thumbnails/thumbnail-2.webp"></a>
+          <div class="video-time">8:00:00</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="tooltip">
+            <div class="channel-redirect">
+            <a href="https://www.youtube.com/@BroCodez"><img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+            </a></div>
+              <div class="tooltiptext">
+                <img class="icon-preview" src="channel-pictures/channel-2.jpeg">
+              <div class="first-line"><b>Bro Code</b><br></div>
+              <div class="second-line"><b>916K subscribers</b></div>
+              </div>
+          </div>
+          <div class="video-info">
+          <p class="video-title"> <a href="https://youtu.be/8dWL3wF_OMw">JavaScript Full Course for free 🌐 (2023)</a></p>
+          <p class="video-author"><a href="https://www.youtube.com/@BroCodez">Bro Code</a></p>
+          <p class="video-stats">1.3M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/UD2Ptu6U3N4"><img class="thumbnail" src="thumbnails/thumbnail-3.webp"></a>
+          <div class="video-time">12:59</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="tooltip">
+            <div class="channel-redirect">
+              <a href="https://www.youtube.com/@GOAL"><img class="profile-picture" src="channel-pictures/channel-3.jpeg"></a>
+            </div>
+              <div class="tooltiptext">
+                <img class="icon-preview" src="channel-pictures/channel-3.jpeg">
+                <div class="first-line"><b>GOAL</b><br></div>
+                <div class="second-line"><b>1.2M subscribers</b></div>
+              </div>
+          </div>
+            <div class="video-info">
+            <p class="video-title"><a href="https://youtu.be/UD2Ptu6U3N4">Yaya Toure surprises his biggest fan Declan Rice 😂</a></p>
+            <p class="video-author"><a href="https://www.youtube.com/@GOAL">GOAL</a></p>
+            <p class="video-stats">1.5M views · 5 months ago</p>
+            </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/MkcXU_kn8dw"><img class="thumbnail" src="thumbnails/thumbnail-4.webp"></a>
+          <div class="video-time">4:14</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="tooltip">
+            <div class="channel-redirect">
+            <a href="https://www.youtube.com/channel/UCyxbZF7_PK4nLiexj0kkCNg"><img class="profile-picture" src="channel-pictures/channel-4.jpeg"></a></div>
+            <div class="tooltiptext">
+              <img class="icon-preview" src="channel-pictures/channel-4.jpeg">
+              <div class="first-line"><b>Romeo Santos</b><br></div>
+              <div class="second-line"><b>20.6M subscribers</b></div>
+            </div>
+          </div>
+
+            <div class="video-info">
+            <p class="video-title"><a href="https://youtu.be/MkcXU_kn8dw">Romeo Santos - 7 Días (Audio)</a></p>
+            <p class="video-author"><a href="https://www.youtube.com/channel/UCyxbZF7_PK4nLiexj0kkCNg">Romeo Santos</a></p>
+            <p class="video-stats">165M views · 9 years ago</p>
+            </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/4jjfy-qkG-I"><img class="thumbnail" src="thumbnails/thumbnail-5.webp"></a>
+          <div class="video-time">11:08</div>
+        </div>
+
+        <div class="video-info-grid">
+            <div class="tooltip">
+            <div class="channel-redirect">
+              <a href="https://www.youtube.com/@CucineDaIncubo"><img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+              </a></div>
+              <div class="tooltiptext">
+              <img class="icon-preview" src="channel-pictures/channel-5.jpeg">
+              <div class="first-line"><b>Cucine Da Incubo</b><br></div>
+              <div class="second-line"><b>19.5K subscribers</b></div>
+              </div>
+            </div>
+
+
+          <div class="video-info">
+            <p class="video-title"><a href="https://youtu.be/4jjfy-qkG-I">Cucine da Incubo | Il meglio della terza puntata</a></p>
+            <p class="video-author"><a href="https://www.youtube.com/@CucineDaIncubo">Cucine Da Incubo</a></p>
+            <p class="video-stats">58K views · 1 day ago</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://youtu.be/_JZom_gVfuw"><img class="thumbnail" src="thumbnails/thumbnail-6.webp"></a>
+          <div class="video-time">4:13</div>
+        </div>
+
+          <div class="video-info-grid">
+            <div class="tooltip">
+              <div class="channel-redirect">
+                <a href="https://www.youtube.com/@NotoriousBIG"><img class="profile-picture" src="channel-pictures/channel-6.jpeg"></a></div>
+              <div class="tooltiptext">
+                <img class="icon-preview" src="channel-pictures/channel-6.jpeg">
+                <div class="first-line"><b> The Notorious B.I.G.</b><br></div>
+                <div class="second-line"><b>3.8M subscribers</b></div>
+              </div>
+            </div>
+              <div class="video-info">
+                <p class="video-title"><a href="https://youtu.be/_JZom_gVfuw">The Notorious B.I.G. - Juicy (Official Video) [4K]</a></p>
+                <p class="video-author"><a href="https://www.youtube.com/@NotoriousBIG">The Notorious B.I.G.</a></p>
+                <p class="video-stats">525M views · 11 years ago</p>
+              </div>
+          </div>
+      </div>
+  
+    </div>
+  </body>
+</html>
